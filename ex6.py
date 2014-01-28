@@ -38,12 +38,12 @@ print w + e
 # 4. concatenation; maybe that's the way the + operator is implemented to used in python on strings, in php it does not work using +, they use '.', other languages such as VB use '&'...
 
 # sidenote ---
-# tried to clear the console within pythons shell and came upon a solution
+# tried to clear the console within pythons shell and stumpled over following snippet...
 # 1: import os
 # 2. def cls():
 # 3.    os.system(['clear','cls'][os.name == 'nt'])
 # 4.
 # >>> cls()
-# that's hilarious, equality "os.name=='nt'" is used as an index to an array
+# that's hilarious, equality "os.name=='nt'" is used as an index to an array, being a java dev, this looks strange but fascinating...
 # suggestion was to write >>> os.system('cls' if os.name=='nt' else 'clear')
 # looking forward to pythons 'if/then' stuff :-)
