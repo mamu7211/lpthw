@@ -13,4 +13,4 @@ print formatter % (
 
 # study drills
 # 1. ok
-# 2. because in the third string, we use a ' - that's why the string itself is surrounded by "".
+# 2. because in the third string, we use a apostrophe - that's why the string itself is surrounded by "".
